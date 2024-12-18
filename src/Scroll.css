@@ -1,0 +1,21 @@
+.custom-scroll {
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: #0d0274 rgba(0,128,128,1); /* For Firefox */
+}
+
+.custom-scroll::-webkit-scrollbar {
+    width: 8px; /* Scrollbar width */
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+    background: linear-gradient(to left ,rgba(7,27,87,1) 0%, rgba(0,128,128,1) 100% ); /* Scrollbar track */
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+    background: linear-gradient(to left ,rgba(7,27,87,1) 0%, rgba(0,128,128,1) 100% );
+    border-radius: 10px; /* Rounded edges for the thumb */
+}
+
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to left ,rgba(7,27,87,1) 0%, rgba(0,128,128,1) 100% );
+}
